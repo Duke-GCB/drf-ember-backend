@@ -45,7 +45,7 @@ jobs:
              source venv/bin/activate
              python setup.py bdist_wheel --universal
              pip install twine
-             twine upload --username "${PYPI_USERNAME}" --password "${PYPI_PASSWORD}" dist
+             twine upload --username "${PYPI_USERNAME}" --password "${PYPI_PASSWORD}" dist/*
 workflows:
   version: 2
   build_and_deploy:
