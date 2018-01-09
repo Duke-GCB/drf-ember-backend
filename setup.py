@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='drf-ember-backend',
-    version='1.0',
+    version='1.1',
     packages=['drf_ember_backend'],
     install_requires=[
         'Django',
