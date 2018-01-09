@@ -1,9 +1,9 @@
 from distutils.core import setup
 
 setup(
-    name='drf-json-api',
+    name='drf-ember-backend',
     version='1.0',
-    packages=['drf_json_api'],
+    packages=['drf_ember_backend'],
     install_requires=[
         'Django',
         'djangorestframework',
